@@ -1,0 +1,32 @@
+# env & secrets
+.env
+.env.local
+.env.*.local
+*.session
+*.session-journal
+*.session.*
+
+# data
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# deps & build
+node_modules/
+web/node_modules/
+web/.next/
+web/out/
+api/.venv/
+api/venv/
+**/__pycache__/
+*.py[cod]
+.Python
+.mypy_cache/
+.ruff_cache/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+@theme inline {
+  --color-canvas: var(--lf-canvas);
+  --color-surface: var(--lf-surface);
+  --color-ink: var(--lf-ink);
+  --color-muted: var(--lf-muted);
+  --color-border: var(--lf-border);
+  --color-accent: var(--lf-accent);
+  --color-accent-hover: var(--lf-accent-hover);
+  --color-danger: var(--lf-danger);
+
+  --font-display: var(--lf-font-display);
+  --font-sans: var(--lf-font-body);
+
+  --radius-lf: var(--lf-radius);
+  --max-width-feed: var(--lf-feed-max);
+}
+
+body {
+  background: var(--lf-canvas);
+  color: var(--lf-ink);
+  font-family: var(--lf-font-body);
+}

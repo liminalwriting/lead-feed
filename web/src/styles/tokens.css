@@ -1,0 +1,32 @@
+/**
+ * Design tokens — map to Tailwind via @theme in globals.css.
+ * Swap values here when moving to a fuller design system.
+ */
+:root {
+  /* Surface */
+  --lf-canvas: #f3efe6;
+  --lf-surface: #fffdf8;
+  --lf-ink: #1a1f1c;
+  --lf-muted: #5c6560;
+  --lf-border: #d4cfc3;
+  --lf-accent: #0f6b5c;
+  --lf-accent-hover: #0a5247;
+  --lf-danger: #9b2c2c;
+
+  /* Type */
+  --lf-font-display: var(--font-display), ui-serif, Georgia, serif;
+  --lf-font-body: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+
+  /* Space */
+  --lf-space-1: 0.25rem;
+  --lf-space-2: 0.5rem;
+  --lf-space-3: 0.75rem;
+  --lf-space-4: 1rem;
+  --lf-space-5: 1.5rem;
+  --lf-space-6: 2rem;
+  --lf-space-7: 3rem;
+
+  /* Radius / measure */
+  --lf-radius: 0.375rem;
+  --lf-feed-max: 40rem;
+}
